@@ -26,7 +26,7 @@ body {
 #pinkboard:before, #pinkboard:after {
 	content: '';
 	position: absolute;
-	background: #d63031;
+	/* background: #ff69b4; */
 	width: 100px;
 	height: 160px;
 	border-top-left-radius: 50px;
@@ -35,6 +35,7 @@ body {
 
 #pinkboard:before {
 	left: 100px;
+	background: #ff69b4;
 	transform: rotate(-45deg);
 	transform-origin: 0 100%;
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25),
@@ -43,6 +44,7 @@ body {
 
 #pinkboard:after {
 	left: 0;
+	background: #ff69b4;
 	transform: rotate(45deg);
 	transform-origin: 100% 100%;
 }
